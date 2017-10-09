@@ -1,0 +1,35 @@
+{
+  "name": "docker-auto-compose",
+  "version": "0.0.1",
+  "description": "Docker compose with profiles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "bin": {
+    "auto-compose": "./bin/auto-compose.js"
+  },
+  "keywords": ["docker", "compose", "auto", "multiple"],
+  "homepage": "https://github.com/adogor/docker-auto-compose",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adogor/docker-auto-compose.git"
+  },
+  "author": {
+    "name": "Adrien Ogor",
+    "email": "adrien.ogor@gmail.com",
+    "url": "http://github.com/adogor/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "fs-extra": "^1.0.0",
+    "glob": "^7.1.1",
+    "js-yaml": "^3.7.0",
+    "lodash": "^4.17.3",
+    "path-is-absolute": "^1.0.1"
+  },
+  "devDependencies": {}
+}
