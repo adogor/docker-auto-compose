@@ -137,6 +137,9 @@ function fixPath(localPath, originalDir) {
   if (pathIsAbsolute(localPath)) {
     return localPath;
   }
+  if (!localPath.startsWith(".") && !localPath.startsWith("~")) {
+    return localPath;
+  }
   let relativePath = path.join("./", path.relative(process.cwd(), path.resolve(originalDir, localPath)));
   if (relativePath[0] !== ".") {
     relativePath = "./" + relativePath;
