@@ -9,7 +9,7 @@ const execSync = require("child_process").execSync;
 const yaml = require("js-yaml");
 
 const composeConfV2 = {
-  version: "3",
+  version: "2.4",
   services: {},
   volumes: {},
   networks: {}
