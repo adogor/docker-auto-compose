@@ -110,7 +110,7 @@ function fixPaths(service, serviceDir) {
 }
 
 function variableSubstitution(value) {
-  const match = value.match(/\${[^}]+}/);
+  const match = value.match(/\%{[^}]+}/);
   let newValue = value;
   if (match) {
     const expression = match[0];

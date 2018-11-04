@@ -9,7 +9,12 @@
   "bin": {
     "auto-compose": "./bin/auto-compose.js"
   },
-  "keywords": ["docker", "compose", "auto", "multiple"],
+  "keywords": [
+    "docker",
+    "compose",
+    "auto",
+    "multiple"
+  ],
   "homepage": "https://github.com/adogor/docker-auto-compose",
   "repository": {
     "type": "git",
